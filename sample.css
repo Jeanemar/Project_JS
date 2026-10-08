@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.profile-container {
+    max-width: 450px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(103, 100, 100, 0.379);
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(31, 30, 30, 0.715);
+    transition: background-color 0.3s;
+}
+
+h1, h3{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: #0b1523;
+    line-height: 1.6;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+  
